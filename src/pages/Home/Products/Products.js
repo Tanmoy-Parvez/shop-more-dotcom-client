@@ -20,7 +20,7 @@ const Products = () => {
             <h2 className="fw-bold text-uppercase">Most Sales<span className='purple-text'> Items</span> </h2>
             {product.length ? <Row xs={1} md={3} className="gx-4 gy-5 text-start m-3">
                 {
-                    product.slice(0, 6).map(product => <Zoom>
+                    product.slice(0, 12).map(product => <Zoom>
                         <Col key={product?._id}>
                             <Card className="border-0 py-3 shadow-lg">
                                 <Card.Img variant="top" src={product?.img} className="mx-auto p-3" height="250px" />

@@ -1,12 +1,12 @@
-# Alpha Sunglasses Yard
+# Shop More Dot Com
 
 ## Description:
 
 <p>
-This site is all about a sunglasses selling store which name is Alpha Sunglasses Yard. From this site a visitor can order many stylish sunglasses in a cheap rate with best quality.
+This site is all about a product selling store which name is Shop More Dot Com. From this site a visitor can order products in a cheap rate with best quality.
 <p>
 
-#### To visit the client side: [Click here](https://alpha-sunglasses-yard.web.app/).
+#### To visit the client side: [Click here](https://shop-more-dotcom.web.app/).
 
 or,
 
@@ -15,7 +15,7 @@ or,
 ### Little bit description about this website:
 
 <ul>
-    <li>This website represents a sunglasses selling store.</li>
+    <li>This website represents a e-commerce site.</li>
     <li>I use firebase for user authentication.</li>
     <li>I use mongodb for storing data.</li>
     <li>I put both admin and a normal user route.</li>
