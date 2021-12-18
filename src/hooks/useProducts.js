@@ -18,11 +18,18 @@ const useProducts = () => {
         dispatch(setProducts(response.data));
     }
 
+    const reload = () => {
+        if (!product.length) {
+            fetchProducts()
+        }
+    }
 
     useEffect(() => {
         fetchProducts()
-        setProduct((products.allProducts.products))
-    }, [])
+        setProduct((products?.allProducts?.products))
+    }, [reload])
+
+
 
     return [product, setProduct]
 }
